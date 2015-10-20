@@ -1,3 +1,5 @@
+
+
 chrome.browserAction.onClicked.addListener(openExtension);
 chrome.commands.onCommand.addListener(openExtension);
 
@@ -14,9 +16,6 @@ function openExtension() {
         url: chrome.extension.getURL("bookmarks.html")
       });
       chrome.tabs.remove(tab[0].id);
-
-
-
     } else if (tab[0].url.match('chrome-extension:\/\/.*\/bookmarks.html')) {
       return;
     } else {
