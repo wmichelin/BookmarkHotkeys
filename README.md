@@ -1,4 +1,5 @@
 # BookmarkHotkeys
 Chrome Extension
 
-INSTALL IT
+Download at 
+https://chrome.google.com/webstore/detail/bookmark-hotkeys/ckadmgobfaomcmkfcnnbllmddpmkmdfe
